@@ -62,3 +62,80 @@ terraform init
 terraform plan
 terraform apply
 terraform destroy
+```
+
+---
+
+## Screenshots
+
+### Terraform Init
+
+<img src="Screenshots/terraform-init.png" width="700">
+
+---
+
+### Terraform Plan
+
+<img src="Screenshots/terraform-plan.png" width="700">
+
+---
+
+### Terraform Apply
+
+<img src="Screenshots/terraform-apply.png" width="700">
+
+---
+
+### EC2 Instance Running
+
+<img src="Screenshots/ec2-instance-running.png" width="700">
+
+---
+
+### Website Working
+
+<img src="Screenshots/website-working.png" width="700">
+
+---
+
+### Terraform Destroy
+
+<img src="Screenshots/terraform-destroy.png" width="700">
+
+---
+
+### EC2 Instance Terminated After Destroy
+
+<img src="Screenshots/terraform-instance-destroy.png" width="700">
+
+---
+
+## Project Files
+
+- `main.tf` — main Terraform configuration
+- `variables.tf` — input variables
+- `outputs.tf` — Terraform outputs
+- `user-data.sh` — EC2 startup script
+- `.gitignore` — excludes local Terraform state/cache files
+- `Screenshots/` — project evidence
+
+---
+
+## What I Learned
+
+- How to use Terraform to deploy AWS infrastructure
+- How Terraform providers work
+- How to create EC2 instances with Infrastructure as Code
+- How to configure AWS security groups using Terraform
+- How to use User Data to automate server setup
+- How to output useful resource information from Terraform
+- Why Terraform state files should not be uploaded to GitHub
+- How to clean up infrastructure using `terraform destroy`
+
+---
+
+## Why This Project Matters
+
+This project demonstrates Infrastructure as Code, which is widely used in cloud engineering and DevOps roles.
+
+Instead of manually creating infrastructure in the AWS console, Terraform allows cloud resources to be defined, version-controlled, reviewed, and recreated consistently.
